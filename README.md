@@ -2,6 +2,8 @@
 
 This CTF challenge was hosted by the **MSFarsi** team. It is designed to test the skills of participants in cloud resource access and security exploitation. The challenge includes an SSRF (Server-Side Request Forgery) vulnerability, which allows participants to make the server send HTTP requests to internal services, such as the Azure Instance Metadata Service (IMDS). By leveraging this bug, participants can retrieve access tokens, enumerate subscriptions and resources, access storage containers, and ultimately obtain the flag.
 
+Challenge page: [https://csc.msfarsi.com](https://csc.msfarsi.com)
+
 ![](images/01.jpg)
 
 # Challenge
