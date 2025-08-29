@@ -103,7 +103,8 @@ The result of this command is shown below.
 
 Next, I tried to view the list of files in the container using the following command:
 ```
-Invoke-RestMethod -Headers $storage_headers -Uri "https://$storage_name.blob.core.windows.net/$($container_name)?restype=container&comp=list"
+$container_name = "assets"
+Invoke-RestMethod -Headers $storage_headers -Uri "https://storageidmsch.blob.core.windows.net/$($container_name)?restype=container&comp=list"
 ```
 
 The result of this command is shown below.
